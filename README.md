@@ -43,6 +43,7 @@ This project focuses on user interface design, smooth transitions, and clean, sc
 
 Future Improvements and WIP:
 Links of Contacts
+Links of works
 Improve accessibility (ARIA, keyboard navigation)
 Add more advanced animations
 Optimize performance

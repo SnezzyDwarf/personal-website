@@ -1,24 +1,24 @@
 .section_me {
   width: 100%;
-  max-width: 1200px;
   min-height: 80dvh;
-  margin: 0 auto;
-  padding: 5rem 1rem;
 }
 
 .section_me-content {
   width: 100%;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+  padding: 5rem 1rem;
 }
 
 /*====base box =========*/
 .text_base {
   display: flex;
   flex-direction: column;
-  height: 12dvh;
+  height: 9dvh;
   justify-content: flex-end;
 }
 

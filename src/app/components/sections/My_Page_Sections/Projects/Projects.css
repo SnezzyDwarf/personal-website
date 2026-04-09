@@ -17,15 +17,13 @@
 .section_projects-content_grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-column-gap: 4rem;
-  grid-row-gap: 2rem;
+  gap: 2rem 4rem;
 }
 
 .section_projects-content_grid-single {
   display: flex;
   width: 100%;
-  min-height: 45dvh;
+  min-height: auto;
   flex-direction: column;
   gap: 1rem;
   border-radius: 18px;
@@ -40,6 +38,7 @@
   flex-direction: column;
   justify-content: flex-end;
   position: relative;
+  margin-top: auto;
 }
 
 .section_projects-content_grid-single-bottom p {
@@ -94,14 +93,9 @@
 
 @media (max-width: 728px) {
   .section_projects {
-    min-height: 210dvh;
+    min-height: 280dvh;
   }
   .section_projects-content_grid {
-    display: grid;
-
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 2rem;
   }
 }

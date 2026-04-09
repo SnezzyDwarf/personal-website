@@ -93,7 +93,7 @@
 
 @media (max-width: 728px) {
   .section_projects {
-    min-height: 280dvh;
+    min-height: 200dvh;
   }
   .section_projects-content_grid {
     grid-template-columns: 1fr;

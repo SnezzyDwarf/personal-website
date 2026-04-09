@@ -1,7 +1,6 @@
 .section_techs {
   width: 100%;
-  min-height: 120dvh;
-  margin-top: 1rem;
+  min-height: 100dvh;
 }
 
 .section_techs-content {
@@ -111,11 +110,5 @@
   }
   to {
     transform: scaleX(1);
-  }
-}
-
-@media (max-width: 728px) {
-  .section_techs {
-    min-height: 80dvh;
   }
 }

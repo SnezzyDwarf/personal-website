@@ -1,0 +1,19 @@
+.section-landing {
+  width: 100%;
+  min-height: 100dvh;
+  background-color: #008080;
+}
+
+.box_children {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.box_buttons {
+  display: flex;
+  gap: var(--space-sm);
+}

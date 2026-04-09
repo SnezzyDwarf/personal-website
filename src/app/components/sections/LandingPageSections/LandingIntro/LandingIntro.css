@@ -1,0 +1,21 @@
+.section_landingintro {
+  width: 100%;
+  min-height: 100dvh;
+}
+
+.section_landingintro-content {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5rem 1rem;
+}
+
+.box_title {
+  display: flex;
+  gap: var(--space-xs);
+}

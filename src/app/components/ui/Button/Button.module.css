@@ -1,0 +1,23 @@
+.btn {
+  width: 65px;
+  height: 30px;
+}
+
+.primary {
+  width: 80px;
+  height: 35px;
+  font-family: "W95";
+  background-color: #c0c0c0;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  font-size: clamp(var(--fs-p-min), 1vw + 0.25rem), var(--fs-p-max);
+}
+
+.primary:active {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}

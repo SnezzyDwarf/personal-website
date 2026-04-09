@@ -1,0 +1,122 @@
+.section_techs {
+  width: 100%;
+  min-height: 100dvh;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.section_techs-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5rem 1rem;
+}
+
+.section_techs-content_loading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.section_techs-content_loading-title {
+  display: flex;
+  gap: 1rem;
+}
+
+.section_techs-content_loading-bar {
+  width: 100%;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 32px;
+  border: none;
+  padding: 0.2rem 0.3rem;
+  box-shadow: 1px 1px 3px gray;
+}
+
+.section_techs-content_loading-bar .HTML_bar {
+  display: flex;
+  width: 95%;
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 32px;
+  background-color: orangered;
+  animation: loading 4s ease forwards;
+}
+.section_techs-content_loading-bar .css_bar {
+  display: flex;
+  width: 85%;
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 32px;
+  background-color: rgb(88, 156, 216);
+  animation: loading 4s ease forwards;
+}
+.section_techs-content_loading-bar .java_bar {
+  display: flex;
+  width: 70%;
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 32px;
+  background-color: rgb(255, 208, 0);
+  animation: loading 4s ease forwards;
+}
+.section_techs-content_loading-bar .react_bar {
+  display: flex;
+  width: 60%;
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 32px;
+  background-color: rgb(76, 116, 182);
+  animation: loading 4s ease forwards;
+}
+
+.section_techs-content_bottom {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.section_techs-content_bottom::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 0.5px;
+  background-color: var(--color-neutral);
+}
+
+.section_techs-content_bottom-right,
+.section_techs-content_bottom-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+@keyframes loading {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@media (max-width: 728px) {
+  .section_techs {
+    min-height: 70dvh;
+  }
+}

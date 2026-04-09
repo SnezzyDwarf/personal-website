@@ -1,0 +1,21 @@
+.section_language {
+  width: 100%;
+  min-height: 100dvh;
+}
+
+.section_language-content {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5rem 1rem;
+}
+
+.section_language-content_buttons {
+  display: flex;
+  gap: var(--space-md);
+}

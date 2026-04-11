@@ -1,6 +1,6 @@
 .box {
   width: 350px;
-  height: 150px;
+  height: auto;
   display: flex;
   justify-content: center;
 }
@@ -273,7 +273,7 @@
 
 .quintenary {
   width: 100%;
-  min-height: 120vh;
+
   padding: var(--space-lg);
 }
 

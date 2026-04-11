@@ -8,6 +8,7 @@
 .primary {
   background-color: #c0c0c0;
   box-shadow: 1px 1px 10px black;
+  min-height: 100px;
 }
 
 .primary .media {

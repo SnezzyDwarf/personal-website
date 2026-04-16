@@ -29,3 +29,17 @@
   cursor: not-allowed;
   opacity: 0.6;
 }
+
+.secondary {
+  width: auto;
+  height: 35px;
+  font-family: "W95";
+  color: black;
+  background-color: #c0c0c0;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  font-size: clamp(var(--fs-p-min), 1vw + 0.25rem), var(--fs-p-max);
+  padding: var(--space-xs);
+}

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 //Sections
 import Gallery from "../Gallery/Gallery";
@@ -14,6 +14,17 @@ export default function ProjectSection() {
   const handlerProject = () => {
     setActiveProject(null);
   };
+
+  useEffect(() => {
+    if (activeProject !== null) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [activeProject]);
 
   return (
     <>

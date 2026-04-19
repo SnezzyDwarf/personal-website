@@ -15,7 +15,14 @@ export default function Button({
   const moduleClassName = `${styles.btn} ${styles[variant] || ""} ${className}`;
   if (to) {
     return (
-      <Link to={to} className={moduleClassName} onClick={onClick} {...props}>
+      <Link
+        to={to}
+        defer
+        target="_blank"
+        className={moduleClassName}
+        onClick={onClick}
+        {...props}
+      >
         {children}
       </Link>
     );

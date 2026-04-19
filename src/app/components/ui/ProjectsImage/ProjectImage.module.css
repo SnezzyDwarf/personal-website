@@ -122,7 +122,7 @@
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-
+  gap: var(--space-md);
   height: 80vh;
 }
 
@@ -139,4 +139,20 @@
   height: auto;
   max-height: 70vh;
   object-fit: contain;
+}
+
+@media (max-width: 728px) {
+  .primary .wrapper {
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .zoom_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
 }

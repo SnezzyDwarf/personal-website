@@ -5,13 +5,15 @@ export const translations = {
     buttonNo: `No`,
     boxLoading: `Loading Profile`,
     aboutTitle: "About",
-    description: `My name is Bruno Pernao, I am a frontend developer transitioning into tech after several years working as a dental hygienist, a role where I reached a high level of professional experience.
+    description: `My name is Bruno Pernao, and I am a Frontend Developer focused on building modern, responsive web applications using React and JavaScript.
 
-I decided to shift my career towards my true passion and am currently studying Full Stack Development, with a focus on Front End.
+I develop component-based interfaces with strong attention to performance, accessibility and clean code structure, aiming to deliver smooth and intuitive user experiences.
 
-I work with HTML, CSS, JavaScript and React, paying close attention to accessibility, structure and best practices.
+Previously, I worked in healthcare, where I developed a high level of precision, responsibility and user-focused thinking — skills I now apply to frontend development.
 
-I am based in Portugal and fluent in Portuguese, English and can understand a bit of Spanish.`,
+I am currently studying Full Stack Development, with a primary focus on Frontend.
+
+Based in Portugal. Fluent in Portuguese and English, with basic knowledge of Spanish.`,
     status: "STATUS",
     ready: "AVAILABLE",
     /*project section */
@@ -43,11 +45,15 @@ I am based in Portugal and fluent in Portuguese, English and can understand a bi
     buttonNo: `Não`,
     boxLoading: `A Carregar Perfil`,
     aboutTitle: "Sobre",
-    description: `O meu nome é Bruno Pernao. Sou um desenvolvedor frontend em transição para a área de tecnologia, após vários anos a trabalhar como higienista oral, função na qual atingi um elevado nível de experiência profissional.
-Decidi mudar a minha carreira para seguir a minha verdadeira paixão e estou atualmente a estudar Desenvolvimento Full Stack, com foco em Frontend.
-Trabalho com HTML, CSS, JavaScript e React, dando especial atenção à acessibilidade, estrutura e boas práticas.
+    description: `O meu nome é Bruno Pernao, sou Desenvolvedor Frontend focado na criação de aplicações web modernas e responsivas utilizando React e JavaScript.
 
-Estou baseado em Portugal e sou fluente em português e inglês, tendo também conhecimentos básicos de espanhol.`,
+Desenvolvo interfaces baseadas em componentes, com forte atenção à performance, acessibilidade e organização do código, procurando oferecer experiências de utilização fluidas e intuitivas.
+
+Anteriormente trabalhei na área da saúde, onde desenvolvi um elevado nível de precisão, responsabilidade e foco no utilizador — competências que hoje aplico no desenvolvimento frontend.
+
+Atualmente a estudar Full Stack Development, com foco principal em Frontend.
+
+Baseado em Portugal. Fluente em português e inglês, com conhecimentos básicos de espanhol.`,
     status: "ESTADO",
     ready: "DISPONÍVEL",
     /*project section */
@@ -79,12 +85,15 @@ Estou baseado em Portugal e sou fluente em português e inglês, tendo também c
     buttonNo: `No`,
     boxLoading: `Cargando Perfil`,
     aboutTitle: "Sobre Mí",
-    description: `Mi nombre es Bruno Pernao, soy desarrollador frontend en transición hacia el sector tecnológico después de varios años trabajando como higienista dental, un puesto en el que alcancé un alto nivel de experiencia profesional.
-Decidí orientar mi carrera hacia mi verdadera pasión y actualmente estoy estudiando Desarrollo Full Stack, con enfoque en Front End.
+    description: `Mi nombre es Bruno Pernao, soy Desarrollador Frontend enfocado en la creación de aplicaciones web modernas y responsivas utilizando React y JavaScript.
 
-Trabajo con HTML, CSS, JavaScript y React, prestando especial atención a la accesibilidad, la estructura y las buenas prácticas.
+Desarrollo interfaces basadas en componentes, con especial atención al rendimiento, la accesibilidad y la organización del código, buscando ofrecer experiencias de usuario fluidas e intuitivas.
 
-Resido en Portugal y hablo con fluidez portugués e inglés, y puedo entender un poco de español.`,
+Anteriormente trabajé en el área de la salud, donde desarrollé un alto nivel de precisión, responsabilidad y enfoque en el usuario — habilidades que ahora aplico al desarrollo frontend.
+
+Actualmente estoy estudiando Full Stack Development, con enfoque principal en Frontend.
+
+Resido en Portugal. Hablo portugués e inglés con fluidez, y tengo conocimientos básicos de español.`,
     status: "ESTADO",
     ready: "DISPONIBLE",
     /*project section */

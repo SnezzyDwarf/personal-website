@@ -54,6 +54,31 @@
   animation: color_background 700ms infinite;
 }
 
+.links_base {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: auto;
+}
+
+.linkedinIcon:hover {
+  color: #0a66c2; /* azul LinkedIn */
+}
+
+.gitHub:hover {
+  color: #f70808;
+}
+.instagram:hover {
+  color: #e1306c;
+}
+.facebook:hover {
+  color: #1877f2;
+}
+
 @keyframes color_background {
   0% {
     background-color: red;

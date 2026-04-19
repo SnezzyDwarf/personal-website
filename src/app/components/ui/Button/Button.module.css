@@ -43,3 +43,93 @@
   font-size: clamp(var(--fs-p-min), 1vw + 0.25rem), var(--fs-p-max);
   padding: var(--space-xs);
 }
+
+.secondary:disabled {
+  color: #666;
+  cursor: not-allowed;
+}
+
+.terciary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  color: #000;
+  font-size: clamp(var(--fs-p-min), 1vw + 0.25rem), var(--fs-p-max);
+  font-size: 100%;
+  line-height: 1.5;
+  text-transform: uppercase;
+  font-family: "W95";
+  background: rgba(255, 255, 255, 0.57);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.2px);
+  -webkit-backdrop-filter: blur(7.2px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 99999px;
+}
+
+.terciary span {
+  position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  color: black;
+}
+
+.terciary span::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 3px;
+  background-color: black;
+  right: 0;
+  top: -4px;
+  transform: rotate(45deg);
+}
+
+.terciary span::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 3px;
+  background-color: black;
+  right: 0;
+  top: 4px;
+  transform: rotate(-45deg);
+}
+
+.terciary span::before,
+.terciary span::after {
+  background-color: black;
+}
+
+.terciary:hover {
+  background: rgba(92, 92, 92, 0.57);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.2px);
+  -webkit-backdrop-filter: blur(7.2px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.terciary:hover span,
+.terciary:hover span::before,
+.terciary:hover span::after {
+  background-color: white;
+  filter: drop-shadow(0 0 0px #fff) drop-shadow(0 0 2px #fff);
+}
+
+.logo {
+  background-color: transparent;
+  height: auto;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}

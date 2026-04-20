@@ -5,7 +5,7 @@ export const translations = {
     buttonNo: `No`,
     boxLoading: `Loading Profile`,
     aboutTitle: "About",
-    description: `My name is Bruno Pernao, and I am a Frontend Developer focused on building modern, responsive web applications using React and JavaScript.
+    description: `My name is Bruno Pernão, and I am a Frontend Developer focused on building modern, responsive web applications using React and JavaScript.
 
 I develop component-based interfaces with strong attention to performance, accessibility and clean code structure, aiming to deliver smooth and intuitive user experiences.
 
@@ -45,7 +45,7 @@ Based in Portugal. Fluent in Portuguese and English, with basic knowledge of Spa
     buttonNo: `Não`,
     boxLoading: `A Carregar Perfil`,
     aboutTitle: "Sobre",
-    description: `O meu nome é Bruno Pernao, sou Desenvolvedor Frontend focado na criação de aplicações web modernas e responsivas utilizando React e JavaScript.
+    description: `O meu nome é Bruno Pernão, sou Desenvolvedor Frontend focado na criação de aplicações web modernas e responsivas utilizando React e JavaScript.
 
 Desenvolvo interfaces baseadas em componentes, com forte atenção à performance, acessibilidade e organização do código, procurando oferecer experiências de utilização fluidas e intuitivas.
 
@@ -53,7 +53,7 @@ Anteriormente trabalhei na área da saúde, onde desenvolvi um elevado nível de
 
 Atualmente a estudar Full Stack Development, com foco principal em Frontend.
 
-Baseado em Portugal. Fluente em português e inglês, com conhecimentos básicos de espanhol.`,
+Sedeado em Portugal. Fluente em português e inglês, com conhecimentos básicos de espanhol.`,
     status: "ESTADO",
     ready: "DISPONÍVEL",
     /*project section */
@@ -85,7 +85,7 @@ Baseado em Portugal. Fluente em português e inglês, com conhecimentos básicos
     buttonNo: `No`,
     boxLoading: `Cargando Perfil`,
     aboutTitle: "Sobre Mí",
-    description: `Mi nombre es Bruno Pernao, soy Desarrollador Frontend enfocado en la creación de aplicaciones web modernas y responsivas utilizando React y JavaScript.
+    description: `Mi nombre es Bruno Pernão, soy Desarrollador Frontend enfocado en la creación de aplicaciones web modernas y responsivas utilizando React y JavaScript.
 
 Desarrollo interfaces basadas en componentes, con especial atención al rendimiento, la accesibilidad y la organización del código, buscando ofrecer experiencias de usuario fluidas e intuitivas.
 

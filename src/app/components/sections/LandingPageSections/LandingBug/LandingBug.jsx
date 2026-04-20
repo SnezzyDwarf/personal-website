@@ -15,7 +15,7 @@ export default function LandingBug({ handleNext }) {
   useEffect(() => {
     const counter = setInterval(() => {
       setCount((prev) => {
-        if (prev >= 40) return prev;
+        if (prev >= 20) return prev;
         return prev + 1;
       });
     }, 100);
@@ -24,7 +24,7 @@ export default function LandingBug({ handleNext }) {
   }, []);
 
   useEffect(() => {
-    if (count >= 40) {
+    if (count >= 20) {
       handleNext();
     }
   }, [count, handleNext]);
@@ -70,6 +70,7 @@ export default function LandingBug({ handleNext }) {
                       corr@pted
                       <span aria-hidden="true">Syst%m corr@pted</span>
                     </p>
+                    <p>Is fake Relax </p>
                   </div>
                 </div>
               </div>
